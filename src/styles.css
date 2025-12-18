@@ -26,11 +26,29 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: var(--main-font);
   font-weight: 300;
+}
+
+body {
+  margin: 0;
+  background-color: var(--light);
+}
+
+main { 
+  width: 80%;
+  margin: 3rem 10%;
+}
+
+header {
+  padding: 0.75rem 0.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
 }
 
 .title {
@@ -38,5 +56,9 @@
 }
 
 .logo {
+
+}
+
+.logo-text {
   font-family: var(--logo-font);
 }
