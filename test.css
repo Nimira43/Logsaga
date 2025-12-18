@@ -1,0 +1,14 @@
+:root {
+  --main: #8b1e1e;
+  --support: #d4a017;
+  --viking-blue: #1f3f7a;
+  --dark: #111;
+  --light: #fafafa;
+  --grey-1: #333;
+  --grey-2: #999;
+  --grey-3: #ccc;
+  --grey-4: #eee;
+  --main-hover: #a32424;
+  --dark-hover: #1a1a1a;
+  --transition: all 0.5s ease-in-out;
+}
