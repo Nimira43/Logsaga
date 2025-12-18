@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=MedievalSharp&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --main-font: 'Spectral', serif;
+  --title-font: 'IM Fell English SC', serif;
+  --logo-font: 'MedievalSharp', cursive;
+  --main: #8b1e1e;
+  --support: #d4a017;
+  --viking-blue: #1f3f7a;
+  --dark: #111;
+  --light: #fafafa;
+  --grey-1: #333;
+  --grey-2: #999;
+  --grey-3: #ccc;
+  --grey-4: #eee;
+  --main-hover: #a32424;
+  --dark-hover: #1a1a1a;
+  --light-helper-1: #f4f4f4;
+  --light-helper-2: #f7f7f7;
+  --light-helper-3: #fdfdfd;
+  --light-helper-4: #f4f4f4;
+  --shadow-soft: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-medium: 0 2px 6px rgba(0, 0, 0, 0.12);
+  --shadow-hard: 0 4px 12px rgba(0, 0, 0, 0.16);
+  --transition: all 0.5s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  font-weight: 300;
+}
+
+.title {
+  font-family: var(--title-font);
+}
+
+.logo {
+  font-family: var(--logo-font);
+}
