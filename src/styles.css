@@ -10,7 +10,7 @@
   --dark: #111;
   --light: #fafafa;
   --grey-1: #333;
-  --grey-2: #999;
+  --grey-2: #888;
   --grey-3: #ccc;
   --grey-4: #eee;
   --main-hover: #a32424;
@@ -84,7 +84,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: var(--grey-1);
+  color: var(--grey-2);
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
@@ -103,3 +103,25 @@ nav ul li a:hover {
     padding: 1.5rem 10%;
   }
 }
+
+button {
+  display: inline-block;
+  border: 1px solid var(--grey-2);
+  background-color: transparent;
+  color: var(--grey-2);
+  padding: 0.65rem 1.35rem;
+  border-radius: 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  border-color: var(--main);
+  color: var(--main);
+}
+
