@@ -38,4 +38,12 @@ export class AppComponent {
         value: 442,
     },
   ]
+  maxTraffic = Math
+    .max(
+      ...this.dummyTrafficData
+        .map(
+          (data) => data.value
+        )
+    )
+  currentStatus = 'online'
 }
