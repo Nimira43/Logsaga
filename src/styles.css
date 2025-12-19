@@ -211,6 +211,14 @@ p {
   font-size: 1.15rem;
 }
 
+.status-online p:first-of-type {
+  color: var(--viking-blue);
+}
+
+.status-offline p:first-of-type {
+  color: var(--main);
+}
+
 @media (min-width: 768px) {
   .nav-header {
     flex-direction: row;
