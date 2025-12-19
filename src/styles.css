@@ -179,6 +179,22 @@ p {
   width: 15rem;
 }
 
+.chart {
+  height: 10rem;
+  display: flex;
+  align-items: end;
+  gap: 0 5rem;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid var(--viking-blue);
+}
+
+.chart div {
+  flex: 1;
+  background-color: red;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
 @media (min-width: 768px) {
   .nav-header {
     flex-direction: row;
