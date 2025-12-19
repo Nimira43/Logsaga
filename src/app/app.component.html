@@ -7,29 +7,7 @@
     </div>
     
     <div class="dashboard-item">
-      <article>
-        <header class="dashboard-item-header">
-          <i-lucide 
-            class="dashboard-item-icon"
-            name="globe" 
-            size="18" 
-            color="var(--main)">
-          </i-lucide>
-          <h2 class="title dashboard-item-heading">Traffic</h2>  
-        </header>
-        <div id="traffic" class="traffic">
-          <p>Last 7 days</p>
-          <div id="chart" class="chart">
-            @for (dataPoint of dummyTrafficData; track dataPoint.id) {
-              <div 
-                class="chart-bar"
-                [style.height]="
-                (dataPoint.value / maxTraffic) * 100 + '%'"
-              ></div>
-            }
-          </div>
-        </div>
-      </article>
+      
     </div>
     
     <div class="dashboard-item">
