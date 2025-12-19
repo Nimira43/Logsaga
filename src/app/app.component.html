@@ -26,8 +26,16 @@
           <h2>Server Status</h2>  
         </header>
         <div>
-          <p>Servers are online</p>
-          <p>All systems are operational</p>
+          @if (currentStatus === 'online') {
+            <p>Servers are online</p>
+            <p>All systems are operational</p>
+          } @else if (currentStatus === 'offline') {
+          <p>Servers are offline</p>
+          <p>System is currently down.</p>
+          } @else {
+          <p>Servers status unknown</p>
+          <p>Fetching server status failed.</p>
+          
         </div>
       </article>
     </div>
