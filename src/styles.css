@@ -43,6 +43,18 @@ p {
   color: var(--grey-2);
 }
 
+.btn {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.65rem 1.35rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
 .nav-header {
   display: flex;
   flex-direction: column;
@@ -85,32 +97,7 @@ p {
   line-height: 1;
 }
 
-
-
-
-
-.btn {
-  display: inline-block;
-  border: 1px solid var(--grey-1);
-  background-color: transparent;
-  color: var(--grey-1);
-  padding: 0.65rem 1.35rem;
-  border-radius: 0.25rem;
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-button:hover {
-  border-color: var(--main);
-  color: var(--main);
-}
-
-nav ul {
+.navbar ul {
   display: flex;
   gap: 2rem;
   list-style: none;
@@ -119,7 +106,7 @@ nav ul {
   margin: 0;
 }
 
-nav ul li a {
+.nav-link {
   color: var(--grey-1);
   font-weight: 400;
   text-transform: uppercase;
@@ -127,10 +114,21 @@ nav ul li a {
   transition: var(--transition);
 }
 
-nav ul li a:hover {
+.nav-link:hover {
   color: var(--main);
 }
 
+.logout-btn {
+  display: inline-block;
+  border: 1px solid var(--grey-1);
+  background-color: transparent;
+  color: var(--grey-1);
+}
+
+.logout-btn:hover {
+  border-color: var(--main);
+  color: var(--main);
+}
 .title {
   font-family: var(--title-font);
 }
