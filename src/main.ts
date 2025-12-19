@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser'
 import { AppComponent } from './app/app.component'
-import { LucideAngularModule, Server, Activity, Circle, CheckCircle2, AlertTriangle, Globe} from 'lucide-angular'
+import { LucideAngularModule, Server, Globe, Ticket} from 'lucide-angular'
 import { importProvidersFrom } from '@angular/core'
 
 bootstrapApplication(AppComponent, {
@@ -9,10 +9,7 @@ bootstrapApplication(AppComponent, {
       LucideAngularModule.pick({
         Server,
         Globe,
-        Activity,
-        Circle,
-        CheckCircle2,
-        AlertTriangle,
+        Ticket,
       })
     )
   ]
