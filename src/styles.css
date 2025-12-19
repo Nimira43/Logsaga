@@ -162,7 +162,7 @@ p:last-of-type {
   box-shadow: var(--shadow-medium); 
 }
 
-.server-status-header {
+.dashboard-item-header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -170,13 +170,13 @@ p:last-of-type {
   color: var(--grey-1);
 }
 
-.server-status-icon {
+.dashboard-item-icon {
   width: 2rem;
   height: 2rem;
   object-fit: contain;
 }
 
-.server-status-heading {
+.dashboard-item-heading {
   margin: 0;
   color: var(--grey-1);
 }
