@@ -9,5 +9,5 @@ import { LucideAngularModule } from 'lucide-angular'
   styleUrl: './server-status.component.css'
 })
 export class ServerStatusComponent {
-
+  currentStatus = 'online'
 }

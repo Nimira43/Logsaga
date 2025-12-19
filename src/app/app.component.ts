@@ -46,5 +46,5 @@ export class AppComponent {
           (data) => data.value
         )
     )
-  currentStatus = 'online'
+  
 }
