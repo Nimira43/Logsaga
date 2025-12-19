@@ -50,7 +50,7 @@ header {
   gap: 1rem;
   padding: 0.75rem 0.1rem;
   font-size: 1rem;
-  background-color: var(--grey-4);
+  background-color: var(--light);
   box-shadow: var(--shadow-medium)
 }
 
@@ -133,5 +133,9 @@ nav ul li a:hover {
     flex-direction: row;
     gap: 0;
     padding: 1.5rem 10%;
+  }
+  
+  .dashboard {
+    flex-direction: row;
   }
 }
