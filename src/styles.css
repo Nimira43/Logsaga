@@ -150,6 +150,8 @@ p {
 
 .dashboard-item {
   display: block;
+  min-width: 200px;
+  min-height: 200px;
   padding: 1rem;
   border: 1px solid var(--support);
   border-radius: 0.25rem;
