@@ -165,7 +165,7 @@ p {
   color: var(--grey-1);
 }
 
-.server-icon {
+.icon {
   width: 2rem;
   height: 2rem;
   object-fit: contain;

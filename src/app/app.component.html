@@ -26,7 +26,7 @@
       <article>
         <header class="server-status-header">
           <i-lucide 
-            class="server-icon"
+            class="icon"
             name="server" 
             size="18" 
             color="var(--main)">
@@ -44,6 +44,29 @@
           <p>Servers status unknown</p>
           <p>Fetching server status failed.</p>
           }
+        </div>
+      </article>
+    </div>
+    
+    <div class="dashboard-item">
+      <article>
+        <header class="server-status-header">
+          <i-lucide 
+            class="icon"
+            name="globe" 
+            size="18" 
+            color="var(--main)">
+          </i-lucide>
+          <h2 class="title">Traffic</h2>  
+        </header>
+        <div id="traffic" class="traffic">
+          <p>Last 7 days</p>
+          <div id="chart" class="chart">
+            @for (dataPoint of dummyTrafficData; track dataPoint.id) {
+              <div 
+                [style.height]="(dataPoint.id)"></div>
+            }
+          </div>
         </div>
       </article>
     </div>
