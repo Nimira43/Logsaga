@@ -84,16 +84,8 @@
           </i-lucide>
           <h2 class="title">Tickets</h2>  
         </header>
-        <div id="traffic" class="traffic">
-          <p>Last 7 days</p>
-          <div id="chart" class="chart">
-            @for (dataPoint of dummyTrafficData; track dataPoint.id) {
-              <div 
-                [style.height]="
-                (dataPoint.value / maxTraffic) * 100 + '%'"
-              ></div>
-            }
-          </div>
+        <div id="status" class="status">
+          <p>Not Available</p>
         </div>
       </article>
     </div>
