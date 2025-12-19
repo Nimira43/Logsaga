@@ -1,5 +1,4 @@
 import { Component } from '@angular/core'
-import { LucideAngularModule } from 'lucide-angular'
 import { HeaderComponent } from './header/header.component'
 import { ServerStatusComponent } from './dashboard/server-status/server-status.component'
 import { TrafficComponent } from './dashboard/traffic/traffic.component'
@@ -9,7 +8,6 @@ import { TicketsComponent } from './dashboard/tickets/tickets.component'
   selector: 'app-root',
   standalone: true,
   imports: [
-    LucideAngularModule,
     HeaderComponent,
     ServerStatusComponent,
     TrafficComponent,
