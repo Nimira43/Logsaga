@@ -200,6 +200,11 @@ p {
   transition: var(--transition);
 }
 
+.status {
+  display: block;
+  width: 15rem;
+}
+
 @media (min-width: 768px) {
   .nav-header {
     flex-direction: row;
