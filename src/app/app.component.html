@@ -1,29 +1,37 @@
-<header>
-  <div id="logo" class="logo">
-    <img src="logo-2.png" alt="Logo">
+<header class="nav-header">
+  <div id="logo" class="logo-wrapper">
+    <div class="logo-img">
+      <img src="logo-2.png" alt="Logo">
+    </div>
+    <span class="logo-text">Lögsaga</span>
   </div>
-  <nav>
+  <nav class="navbar">
     <ul>
-      <li>
-        <a href="/">Home</a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
       </li>
-      <li>
-        <a href="/">Management</a>
+      <li class="nav-item">
+        <a class="nav-link" href="/">Management</a>
       </li>
-      <button>
+      <button class="btn">
         Logout
       </button>
     </ul>
   </nav>
 </header>
 
-<main>
+<main class="main-container">
   <div id="dashboard" class="dashboard">
     <div class="dashboard-item">
       <article>
-        <header>
-          <i-lucide name="server" size="18" color="var(--main)"></i-lucide>
-          <h2>Server Status</h2>  
+        <header class="server-status-header">
+          <i-lucide 
+            class="server-icon"
+            name="server" 
+            size="18" 
+            color="var(--main)">
+          </i-lucide>
+          <h2 class="title">Server Status</h2>  
         </header>
         <div>
           @if (currentStatus === 'online') {
