@@ -55,6 +55,11 @@ p {
   transition: var(--transition);
 }
 
+.title {
+  font-family: var(--title-font);
+  color: var(--grey-1);
+}
+
 .nav-header {
   display: flex;
   flex-direction: column;
@@ -129,9 +134,7 @@ p {
   border-color: var(--main);
   color: var(--main);
 }
-.title {
-  font-family: var(--title-font);
-}
+
 .main-container { 
   width: 80%;
   margin: 3rem 10%;
@@ -148,7 +151,7 @@ p {
 .dashboard-item {
   display: block;
   padding: 1rem;
-  /* border: 1px solid var(--support); */
+  border: 1px solid var(--support);
   border-radius: 0.25rem;
   background-color: var(--light-helper-3);
   box-shadow: var(--shadow-medium); 
@@ -162,12 +165,11 @@ p {
   color: var(--grey-1);
 }
 
-i-lucide svg  {
-      width: 1.5rem;
-      height: 1.5rem;
-      object-fit: contain;
-    }
-
+.server-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+}
 
 @media (min-width: 768px) {
   .nav-header {
