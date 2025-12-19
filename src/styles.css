@@ -56,9 +56,9 @@ header {
 
 button {
   display: inline-block;
-  border: 1px solid var(--grey-2);
+  border: 1px solid var(--grey-1);
   background-color: transparent;
-  color: var(--grey-2);
+  color: var(--grey-1);
   padding: 0.65rem 1.35rem;
   border-radius: 0.25rem;
   font-family: inherit;
@@ -107,7 +107,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: var(--grey-2);
+  color: var(--grey-1);
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
@@ -126,6 +126,12 @@ nav ul li a:hover {
   gap: 1.5rem;
   max-width: 85rem;
   background-color: yellow;
+}
+
+p {
+  margin: 0 0  1rem 0;
+  font-size: 0.9rem;
+  color: var(--grey-2);
 }
 
 @media (min-width: 768px) {
