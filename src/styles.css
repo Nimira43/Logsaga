@@ -209,6 +209,7 @@ p {
   font-weight: 400;
   margin: 0 0 0.5rem 0;
   font-size: 1.15rem;
+  animation: pulse 2s infinite;
 }
 
 .status-online p:first-of-type {
@@ -221,6 +222,18 @@ p {
 
 .status-unknown p:first-of-type {
   color: var(--support);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 768px) {
