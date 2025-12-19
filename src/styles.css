@@ -219,6 +219,10 @@ p {
   color: var(--main);
 }
 
+.status-unknown p:first-of-type {
+  color: var(--support);
+}
+
 @media (min-width: 768px) {
   .nav-header {
     flex-direction: row;
