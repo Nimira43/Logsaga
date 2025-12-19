@@ -1,31 +1,9 @@
-<app-header></app-header>
+<app-header />
 
 <main class="main-container">
   <div id="dashboard" class="dashboard">
     <div class="dashboard-item">
-      <article>
-        <header class="dashboard-item-header">
-          <i-lucide 
-            class="dashboard-item-icon"
-            name="server" 
-            size="18" 
-            color="var(--main)">
-          </i-lucide>
-          <h2 class="title dashboard-item-heading">Status</h2>  
-        </header>
-        <div>
-          @if (currentStatus === 'online') {
-            <p>Servers are online</p>
-            <p>All systems are operational</p>
-          } @else if (currentStatus === 'offline') {
-          <p>Servers are offline</p>
-          <p>System is currently down.</p>
-          } @else {
-          <p>Servers status unknown</p>
-          <p>Fetching server status failed.</p>
-          }
-        </div>
-      </article>
+      
     </div>
     
     <div class="dashboard-item">

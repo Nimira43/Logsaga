@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { LucideAngularModule } from 'lucide-angular'
-import { HeaderComponent } from "./header/header.component";
+import { HeaderComponent } from './header/header.component'
 
 @Component({
   selector: 'app-root',
