@@ -205,6 +205,12 @@ p {
   width: 15rem;
 }
 
+.status p:first-of-type {
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.15rem;
+}
+
 @media (min-width: 768px) {
   .nav-header {
     flex-direction: row;
