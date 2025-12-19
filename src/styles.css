@@ -61,12 +61,6 @@ p {
   color: var(--grey-1);
 }
 
-.icon {
-  width: 2rem;
-  height: 2rem;
-  object-fit: contain;
-}
-
 .nav-header {
   display: flex;
   flex-direction: column;
@@ -166,11 +160,23 @@ p {
   box-shadow: var(--shadow-medium); 
 }
 
-.server-status-header {
+.dahboard-item-header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1rem;
+  color: var(--grey-1);
+}
+
+.dashboard-item-icon {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+}
+
+.dashboard-item-heading {
+  margin: 0;
+  font-size: 0.9rem;
   color: var(--grey-1);
 }
 
@@ -204,5 +210,13 @@ p {
   
   .dashboard {
     flex-direction: row;
+  }
+
+  .dashboard-item {
+    padding: 2rem;
+  }
+
+  .traffic {
+    width: 20rem;
   }
 }
