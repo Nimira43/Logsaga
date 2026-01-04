@@ -1,0 +1,14 @@
+<div class="dashboard-item">
+  <article>
+    <header class="dashboard-item-header">
+      <i-lucide 
+        class="dashboard-item-icon" 
+        [name]="icon()" 
+        size="18" 
+        color="var(--main)">
+      </i-lucide>
+      <h2 class="dashboard-item-heading">{{ title() }}</h2>
+    </header>
+    <ng-content></ng-content>
+  </article>
+</div>

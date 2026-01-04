@@ -1,10 +1,9 @@
 import { Component } from '@angular/core'
-import { LucideAngularModule } from 'lucide-angular'
 
 @Component({
   selector: 'app-server-status',
   standalone: true,
-  imports: [LucideAngularModule],
+  imports: [],
   templateUrl: './server-status.component.html',
   styleUrl: './server-status.component.css'
 })
