@@ -43,8 +43,6 @@ main {
   margin: 3rem 10%;
 }
 
-
-
 p {
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
@@ -61,10 +59,9 @@ p:last-of-type {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  padding: 0.65rem 1.35rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  transition: var(--transition);
 }
 
 .title {
@@ -134,14 +131,41 @@ p:last-of-type {
   color: var(--main);
 }
 
-.logout-btn {
+.main-btn {
   display: inline-block;
   border: 1px solid var(--grey-1);
   background-color: transparent;
   color: var(--grey-1);
+  transition: var(--transition);
 }
 
-.logout-btn:hover {
+form p {
+  margin-bottom: 1.25rem;
+}
+
+label {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--dark);
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid var(--grey-1);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: transparent;
+  outline: none;
+  transition: var(--transition);
+}
+
+input:hover,
+textarea:hover,
+.main-btn:hover {
   border-color: var(--support);
   color: var(--main);
 }
@@ -211,7 +235,7 @@ p:last-of-type {
   transition: var(--transition);
 }
 
-.status {
+/* .status {
   display: block;
   width: 15rem;
 }
@@ -233,9 +257,9 @@ p:last-of-type {
 
 .status-unknown p:first-of-type {
   color: var(--support);
-}
+} */
 
-@keyframes pulse {
+/* @keyframes pulse {
   0% {
     opacity: 1;
   }
@@ -245,7 +269,7 @@ p:last-of-type {
   100% {
     opacity: 1;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .nav-header {
