@@ -139,6 +139,11 @@ p:last-of-type {
   transition: var(--transition);
 }
 
+.icon {
+  color: var(--support);
+  margin-left: 2px;
+}
+
 form p {
   margin-bottom: 1.25rem;
 }
